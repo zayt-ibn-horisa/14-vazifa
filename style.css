@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    color: #fff;
+}
+.nav__collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav__item a{
+    text-decoration: none;
+    color: #fff;
+}
+.active a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background: #ddd;
+}
+.home{
+    background: url("./1400x700_gh_0004_rhapsody-in-blue-1_1648757762.jpg") no-repeat center/cover;
+}
+.about{
+    background: url("./open-book-smiley-cup.jpg") no-repeat center/cover;
+}
